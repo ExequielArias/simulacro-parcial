@@ -146,7 +146,7 @@
             // 
             // Fecha
             // 
-            this.Fecha.HeaderText = "Fecha";
+            this.Fecha.HeaderText = "FECHA";
             this.Fecha.Name = "Fecha";
             this.Fecha.ReadOnly = true;
             // 

@@ -35,7 +35,7 @@ namespace simulacro_parcial
                     DateTime mes = Convert.ToDateTime(fila["fecha"].ToString());
                     DateTime año = Convert.ToDateTime(fila["fecha"].ToString());
 
-
+                   
                     string desde = oBarrio.NombreDeBarrio(int.Parse(fila["desdebarrio"].ToString()));
                     string hasta = oBarrio.NombreDeBarrio(int.Parse(fila["hastabarrio"].ToString()));
 
